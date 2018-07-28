@@ -1,3 +1,8 @@
-<% provide(:title, "Home") %>
-<h1>Profile Page Home</h1>
-<p>This is my beta homepage</p>
+<div class="center jumbotron">
+  <h1>Profile Page</h1>
+  <p>This is my beta homepage</p>
+
+  <%= link_to "Browse Now", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
