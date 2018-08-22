@@ -18,14 +18,14 @@ textarea{
   text-align: center;
   .social, p, h1{
     margin-bottom: 10px;
-    .gravatar {
-      border-radius: 50%;
-      -moz-border-radius: 50%;
-      -webkit-border-radius: 50%;
-    }
   }
 }
 
+.gravatar {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
 /* typhography */
 
 h1, h2, h3, h4, h5, h6{
@@ -91,6 +91,9 @@ footer{
       margin-left: 15px;
     }
   } 
+  .social{
+    text-align: center;
+    }
 }
 /* sidebar */
 
@@ -119,6 +122,8 @@ aside{
     }
   }
 }
+
+
 
 /*.gravatar{
   float: left;

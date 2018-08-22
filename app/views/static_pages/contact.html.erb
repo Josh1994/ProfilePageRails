@@ -1,3 +1,16 @@
 <% provide(:title, "Contact") %>
 <h1>Contact</h1>
-<p>This is my contact page that will be updated soon</p>
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <%= gravatar_for "Josh" %>
+        <%= "Josh Mina" %>
+      </h1>
+      <p>Feel free to contact me for any queries: </p>
+      <p>Email: joshmina94@gmail.com</p>
+      <p>Mobile: 0211267856</p>
+      <p>Github: <%= link_to 'https://github.com/Josh1994', 'https://github.com/Josh1994' %> </p>
+    </section>
+  </aside>
+</div>
